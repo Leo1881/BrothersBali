@@ -1,0 +1,374 @@
+/*------------------------Site------------------------*/
+body {
+  color: #171144;
+  font-family: "Public Sans", sans-serif;
+}
+
+h1 {
+  color: #171144;
+  font-family: "Public Sans", sans-serif;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-weight: 600;
+}
+
+h3 {
+  color: #171144;
+}
+
+.heading-bold {
+  font-weight: 600;
+}
+
+.heading-underline {
+  font-weight: 400;
+}
+
+/*------------------------HOME PAGE------------------------*/
+
+.button-icon {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar-text-color {
+  color: #171144;
+}
+
+.homepage-button {
+  background-color: #f16071;
+  border-color: #f16071;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.31);
+}
+
+.homepage-button:hover {
+  background-color: #171144; /* Your hover background color */
+}
+
+.navigation-button {
+  background-color: #171144;
+}
+
+.navbar-toggler {
+  border-color: #171144;
+}
+
+.navbar-toggler-icon {
+  color: #171144;
+}
+
+/*------------------------ABOUT PAGE------------------------*/
+
+.about-background {
+  background-image: url(/images/beach.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-h2 {
+  color: #171144;
+  border-bottom: 1px solid #171144;
+  padding-bottom: 20px;
+}
+
+.about-p {
+  color: #171144;
+  margin-top: 60px;
+  width: 60%;
+  font-weight: 400;
+}
+
+.about-container {
+  padding: 0;
+}
+
+/*------------------------SERVICES PAGE------------------------*/
+
+.service-button {
+  background-color: #171144;
+}
+
+.card-title {
+  font-weight: 600;
+  columns: #171144;
+}
+
+.card-text {
+  font-weight: 400;
+  color: #171144;
+}
+
+.card {
+  box-shadow: 0 2px 2px rgba(110, 110, 110, 0.31);
+  border-color: #e1e0e0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    163deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 39%,
+    rgba(231, 231, 233, 0.7273503151260504) 100%
+  );
+}
+
+/*------------------------ACTIVITIES PAGE------------------------*/
+
+.icon-square {
+  padding: 16px;
+  border-radius: 10px;
+  border: 2px solid #f16071;
+  background-color: #f16071;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.31);
+}
+
+/*------------------------PACKAGES PAGE------------------------*/
+
+.carousel-item {
+  height: 900px;
+}
+
+.background1 {
+  background-image: url(/images/quad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background2 {
+  background-image: url(/images/rafting.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background3 {
+  background-image: url(/images/coffee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background4 {
+  background-image: url(/images/swing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background5 {
+  background-image: url(/images/uluwatu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background6 {
+  background-image: url(/images/marine.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background7 {
+  background-image: url(/images/gate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background8 {
+  background-image: url(/images/west.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background9 {
+  background-image: url(/images/east.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-caption {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.package-p {
+  color: #171144;
+  font-weight: 400;
+}
+
+.package-heading {
+  margin-bottom: 10px;
+}
+
+.package-list {
+  color: #171144;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.package-button {
+  margin-bottom: 0;
+}
+
+/*------------------------REVIEW PAGE------------------------*/
+
+.review-d {
+  font-weight: 600;
+}
+
+.review-p {
+  font-weight: 400;
+}
+
+.review-border {
+  border: 4px solid #f16071;
+}
+
+.review-container {
+  background-color: rgb(241, 240, 240);
+}
+
+/*------------------------FOOTER PAGE------------------------*/
+
+.footer-img {
+  height: 200px;
+}
+
+.footer-copyright {
+  color: #171144;
+  font-size: 8px;
+  margin-left: 15px;
+}
+
+.footer-container {
+  background-color: #f16071;
+  padding-left: 50px;
+}
+
+.follow-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.follow-text {
+  margin-left: 10px;
+}
+
+.follow-div-face {
+  margin-left: -7px;
+}
+
+.svg-face {
+  margin-left: 5px;
+}
+
+/*------------------------MEDIA QUERIES------------------------*/
+@media only screen and (max-width: 600px) {
+  .homepage-text {
+    text-align: center;
+  }
+
+  .logo-center {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler-icon {
+    color: #171144;
+  }
+
+  .homepage-logo {
+    display: none;
+  }
+
+  .navigation-button {
+    margin-top: 10px;
+  }
+
+  .navigation-div {
+    margin-top: 10px;
+  }
+
+  .navbar {
+    margin-top: 10px;
+  }
+
+  .about-p {
+    width: auto;
+  }
+
+  .service-card-div {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .about-h2 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .activities-div {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .footer-copyright {
+    margin-left: -10px;
+  }
+
+  .footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .follow-div {
+    justify-content: center;
+  }
+
+  .footer-img {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar-toggler-icon {
+    color: #171144;
+  }
+
+  .homepage-logo {
+    display: none;
+  }
+
+  .navigation-button {
+    margin-top: 10px;
+  }
+
+  .navigation-div {
+    margin-top: 10px;
+  }
+
+  .navbar {
+    margin-top: 10px;
+  }
+
+  .about-p {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for large devices go here */
+}
