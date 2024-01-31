@@ -62,7 +62,7 @@ h3 {
 /*------------------------ABOUT PAGE------------------------*/
 
 .about-background {
-  background-image: url(/BrothersBali/images/beach.jpg);
+  background-image: url(BrothersBali/images/beach.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
