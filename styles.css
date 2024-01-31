@@ -238,37 +238,16 @@ h3 {
 
 /*------------------------FOOTER PAGE------------------------*/
 
-.footer-img {
-  height: 200px;
-}
-
-.footer-copyright {
-  color: #171144;
-  font-size: 8px;
-  margin-left: 15px;
-}
-
 .footer-container {
   background-color: #f16071;
-  padding-left: 50px;
 }
 
-.follow-div {
-  display: flex;
-  align-items: center;
-  justify-content: start;
+.footer-logo {
+  height: 180px;
 }
 
-.follow-text {
-  margin-left: 10px;
-}
-
-.follow-div-face {
-  margin-left: -7px;
-}
-
-.svg-face {
-  margin-left: 5px;
+.footer-text {
+  text-align: center;
 }
 
 /*------------------------MEDIA QUERIES------------------------*/
