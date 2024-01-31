@@ -62,7 +62,7 @@ h3 {
 /*------------------------ABOUT PAGE------------------------*/
 
 .about-background {
-  background-image: url(BrothersBali/images/beach.jpg);
+  background-image: url(/BrothersBali/images/beach.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -130,63 +130,63 @@ h3 {
 }
 
 .background1 {
-  background-image: url(../images/quad.jpg);
+  background-image: url(/BrothersBali/images/quad.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background2 {
-  background-image: url(../images/rafting.jpg);
+  background-image: url(/BrothersBali/images/rafting.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background3 {
-  background-image: url(../images/coffee.jpg);
+  background-image: url(/BrothersBali/images/coffee.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background4 {
-  background-image: url(../images/swing.jpg);
+  background-image: url(/BrothersBali/images/swing.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background5 {
-  background-image: url(../images/uluwatu.jpg);
+  background-image: url(/BrothersBali/images/uluwatu.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background6 {
-  background-image: url(../images/marine.jpg);
+  background-image: url(/BrothersBali/images/marine.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background7 {
-  background-image: url(../images/gate.jpg);
+  background-image: url(/BrothersBali/images/gate.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background8 {
-  background-image: url(../images/west.jpg);
+  background-image: url(/BrothersBali/images/west.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background9 {
-  background-image: url(../images/east.jpg);
+  background-image: url(/BrothersBali/images/east.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
